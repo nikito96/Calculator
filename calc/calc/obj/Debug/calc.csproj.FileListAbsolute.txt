@@ -1,0 +1,10 @@
+C:\Users\Nikito\source\repos\calc\calc\bin\Debug\calc.exe.config
+C:\Users\Nikito\source\repos\calc\calc\bin\Debug\calc.exe
+C:\Users\Nikito\source\repos\calc\calc\bin\Debug\calc.pdb
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.csprojResolveAssemblyReference.cache
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.Form1.resources
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.Properties.Resources.resources
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.csproj.GenerateResource.Cache
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.csproj.CoreCompileInputs.cache
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.exe
+C:\Users\Nikito\source\repos\calc\calc\obj\Debug\calc.pdb
