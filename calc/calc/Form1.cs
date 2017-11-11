@@ -26,18 +26,32 @@ namespace calc
 
         private void subButton_Click(object sender, EventArgs e)
         {
-            a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
-            result = a - b;
-            MessageBox.Show(a + " - " + b + " = " + result.ToString());
-        }
+            if (textBox1.Text != "" && textBox2.Text != "")
+            {
+                a = int.Parse(textBox1.Text);
+                b = int.Parse(textBox2.Text);
+                result = a - b;
+                MessageBox.Show(a + " - " + b + " = " + result.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Empty field!");
+            }
+}
 
         private void sumButton_Click(object sender, EventArgs e)
         {
-            a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
-            result = a + b;
-            MessageBox.Show(a + " + "+ b + " = " + result.ToString());
+            if (textBox1.Text != "" && textBox2.Text != "")
+            {
+                a = int.Parse(textBox1.Text);
+                b = int.Parse(textBox2.Text);
+                result = a + b;
+                MessageBox.Show(a + " + " + b + " = " + result.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Empty field!");
+            }
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -47,18 +61,32 @@ namespace calc
 
         private void divButton1_Click(object sender, EventArgs e)
         {
-            a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
-            result = a / b;
-            MessageBox.Show(a + " / " + b + " = " + result.ToString());
+            if (textBox1.Text != "" && textBox2.Text != "")
+            {
+                a = int.Parse(textBox1.Text);
+                b = int.Parse(textBox2.Text);
+                result = a / b;
+                MessageBox.Show(a + " / " + b + " = " + result.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Empty field!");
+            }
         }
 
         private void divButton2_Click(object sender, EventArgs e)
         {
-            a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
-            result = a % b;
-            MessageBox.Show(a + " % " + b + " = " + result.ToString());
+            if (textBox1.Text != "" && textBox2.Text != "")
+            {
+                a = int.Parse(textBox1.Text);
+                b = int.Parse(textBox2.Text);
+                result = a % b;
+                MessageBox.Show(a + " % " + b + " = " + result.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Empty field!");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -73,10 +101,17 @@ namespace calc
 
         private void multiButton_Click(object sender, EventArgs e)
         {
-            a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
-            result = a * b;
-            MessageBox.Show(a + " * " + b + " = " + result.ToString());
+            if (textBox1.Text != "" && textBox2.Text != "")
+            {
+                a = int.Parse(textBox1.Text);
+                b = int.Parse(textBox2.Text);
+                result = a * b;
+                MessageBox.Show(a + " * " + b + " = " + result.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Empty field!");
+            }
         }
     }
 }
